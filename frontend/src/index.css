@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "MainFont";
+  src: url("./font/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Ambient";
+  src: url("./font/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Menu-fnt";
+  src: url("./font/GowunDodum-Regular.ttf");
+}
+
+@font-face {
+  font-family: "fntB";
+  src: url("./font/GmarketSansTTFBold.ttf");
+}
+
+@font-face {
+  font-family: "fntL";
+  src: url("./font/GmarketSansTTFLight.ttf");
+}
+
+@font-face {
+  font-family: "fntM";
+  src: url("./font/GmarketSansTTFMedium.ttf");
+}
+@font-face {
+  font-family: "메뉴샘플2";
+  src: url("./font/메뉴샘플2.ttf");
+}
+@font-face {
+  font-family: "메뉴샘플1";
+  src: url("./font/메뉴샘플1.ttf");
+}
+
+.bg {
+  margin: 0;
+  background: black;
+}
+
+html {
+  margin: 0;
+  background: black;
+  font-size: 15px;
+}

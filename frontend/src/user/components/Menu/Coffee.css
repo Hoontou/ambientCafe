@@ -1,0 +1,49 @@
+@keyframes showItem {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.stagger-item-menuhead {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  font-family: 'MainFont';
+}
+
+.mn-lb {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.15s;
+}
+.원두타입 {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.15s;
+}
+
+hr {
+  color: white;
+}
+
+.mn-margin {
+  margin-left: 2rem;
+}
+
+.sig {
+  font-size: 1.5rem;
+}
+
+.mn-lb {
+  color: white;
+  outline: 0;
+  border: 0;
+  background-color: black;
+  font-size: 2.5rem;
+  font-family: 'fntL';
+}
