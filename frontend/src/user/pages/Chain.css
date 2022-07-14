@@ -1,0 +1,36 @@
+.chain-page {
+  width: 100%;
+  height: 100vh;
+  background: white;
+}
+
+.chain-logo {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+}
+.chain-logo img {
+  height: 100px;
+  width: 100px;
+  margin-left: -50px;
+}
+.chain-moon {
+  font-family: 'fntL';
+  font-size: 40px;
+  margin-left: -77px;
+}
+.chain-p {
+  font-family: 'Menu-fnt';
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -175px;
+}
+
+.chain-p1 {
+  width: 350px;
+}
+
+.chain-p2 {
+  margin-top: 30px;
+}

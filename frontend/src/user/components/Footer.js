@@ -8,7 +8,9 @@ const Footer = () => {
   return (
     <div class='container foot'>
       <footer class='d-flex flex-wrap justify-content-between align-items-center my-2 border-top'>
-        <p class='col-md-4 mb-0 text-white'>Contact) ambient@gmail.com</p>
+        <p class='col-md-4 mb-0 text-white foot-email'>
+          Contact) ambient@gmail.com
+        </p>
         <div class='col-md- d-flex align-items-center text-white'></div>
         <ul class='nav col-md-4 justify-content-end list-unstyled d-flex text-white'>
           <li class='ms-3'>

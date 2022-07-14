@@ -14,6 +14,7 @@
   animation: showItem 0.5s;
   animation-fill-mode: both;
   font-family: 'MainFont';
+  font-size: 0.9rem;
 }
 
 .mn-lb {
@@ -25,6 +26,15 @@
   animation: showItem 0.5s;
   animation-fill-mode: both;
   animation-delay: 0.15s;
+  font-size: 0.5rem;
+}
+.sign {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.15s;
+  font-size: 0.5rem;
+  margin-top: -0.4rem;
+  font-family: 'fntL';
 }
 
 hr {
@@ -44,6 +54,6 @@ hr {
   outline: 0;
   border: 0;
   background-color: black;
-  font-size: 2.5rem;
+  font-size: 1rem;
   font-family: 'fntL';
 }

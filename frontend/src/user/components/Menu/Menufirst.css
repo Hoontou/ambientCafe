@@ -1,0 +1,90 @@
+@keyframes showItem {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes showItem1 {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  15% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  85% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+}
+
+.stagger-first {
+  font-family: 'MainFont';
+  position: absolute;
+  animation: showItem1 2.2s;
+  animation-delay: 0.4s;
+  font-size: 1rem;
+  animation-fill-mode: both;
+  font-family: 'fntL';
+}
+
+.stagger-item-menuhead-f {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  font-family: 'MainFont';
+  animation-delay: 2.4s;
+  font-size: 0.9rem;
+}
+.stagger-item-hr-f {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 2.4s;
+}
+
+.mn-lb-f {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 2.55s;
+  color: white;
+  outline: 0;
+  border: 0;
+  background-color: black;
+  font-size: 1rem;
+  font-family: 'fntL';
+}
+.원두타입-f {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 2.55s;
+  font-size: 0.5rem;
+}
+.sign-f {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 2.55s;
+  font-size: 0.5rem;
+  margin-top: -0.4rem;
+  font-family: 'fntL';
+}
+
+hr {
+  color: white;
+}
+
+.mn-margin {
+  margin-left: 2rem;
+}
+
+.sig {
+  font-size: 1.5rem;
+}

@@ -7,13 +7,11 @@
 }
 
 .story1-p {
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  width: 50%;
+  width: 220px;
   position: absolute;
-  top: 5%;
+  top: 15%;
   left: 5%;
 }
 
@@ -29,7 +27,7 @@
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  width: 50%;
+  width: 250px;
   position: absolute;
   top: 5%;
   right: 5%;
@@ -47,16 +45,16 @@
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  width: 50%;
+  width: 225px;
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 5%;
 }
 
 .story4 {
   background: url('../../img/story/story4.jpg') no-repeat center;
   background-size: cover;
-  height: 60rem;
+  height: 40rem;
   position: relative;
   margin-bottom: 3rem;
 }
@@ -65,31 +63,25 @@
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  width: 50%;
+  width: 260px;
   position: absolute;
-  top: 5%;
+  top: 35%;
   left: 5%;
 }
 
-.story5 {
-  background: url('../../img/story/story3.jpg') no-repeat center;
-  background-size: cover;
-  height: 60rem;
-  position: relative;
-  margin-bottom: 3rem;
-}
-.story5-p {
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-  width: 50%;
-  position: absolute;
-  top: 5%;
-  left: 5%;
-}
-
-.fs-4,
-display-5 {
+.story-p {
   font-family: 'fntL';
+  font-size: 1rem;
+}
+
+.story-head {
+  font-family: 'MainFont';
+  margin-bottom: -1px;
+}
+.story-chain {
+  font-family: 'fntM';
+}
+.chain-button {
+  border: 0;
+  outline: 0;
 }

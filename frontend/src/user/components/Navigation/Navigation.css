@@ -19,13 +19,19 @@
 }
 
 .nav-head {
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-family: 'Ambient';
 }
 
 .nav-a {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-family: 'Ambient';
+}
+
+.store-modal {
+  font-family: 'fntL';
+  font-size: 1.5rem;
+  font-weight: 500;
 }

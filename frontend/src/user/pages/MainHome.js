@@ -12,16 +12,16 @@ const MainHome = () => {
       </div>
       <div class='center main-text'>
         <div class='text-center text-white'>
-          <h1 class='display-4 fw-normal stagger-item'>AMBIENT COFFEE</h1>
-          <p class='lead fw-normal stagger-item'>
-            동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+          <p class='stagger-item main-am'>AMBIENT COFFEE</p>
+          <p class='main-text stagger-item main-p'>
+            엠비언트가 드리는 편안한 휴식을 만나보세요.
           </p>
-          <p class='lead fw-normal stagger-item'>
-            가을 하늘 공활한데 높고 구름 없이 밝은 달은 우리 가슴 일편단심일세.
+          <p class='main-text stagger-item main-p'>
+            유학산 자락에서 여러분을 기다리고 있습니다.
           </p>
           <a
             type='button'
-            class='btn btn-outline-warning fw-bold stagger-item'
+            class='btn btn-outline-warning stagger-item about-us'
             href='/story'
           >
             About us

@@ -13,18 +13,19 @@
 .stagger-item {
   animation: showItem 0.7s;
   animation-fill-mode: both;
+  animation-delay: 0.4s;
 }
 .stagger-item:nth-child(1) {
-  animation-delay: 0.07s;
+  animation-delay: 0.47s;
 }
 .stagger-item:nth-child(2) {
-  animation-delay: 0.17s;
+  animation-delay: 0.57s;
 }
 .stagger-item:nth-child(3) {
-  animation-delay: 0.27s;
+  animation-delay: 0.77s;
 }
 .stagger-item:nth-child(4) {
-  animation-delay: 0.8s;
+  animation-delay: 1.3s;
 }
 
 .bg-image {
@@ -47,4 +48,14 @@
 
 .main-text {
   font-family: 'fntL';
+}
+.main-am {
+  font-size: 1.4rem;
+}
+.main-p {
+  font-size: 0.75rem;
+}
+
+.about-us {
+  font-size: 0.6rem !important;
 }

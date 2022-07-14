@@ -11,27 +11,27 @@ import './Menu.css';
 const Menu = () => {
   const [menu, setMenu] = useState(1);
   const set1 = () => {
-    setMenu(1);
-  };
-  const set2 = () => {
     setMenu(2);
   };
-  const set3 = () => {
+  const set2 = () => {
     setMenu(3);
+  };
+  const set3 = () => {
+    setMenu(4);
   };
   return (
     <div class='bg'>
       <Navigation />
-      <div class='text-center text-white bt-div'>
+      <div class='text-center text-white bt-div stagger-item-menuhead-f'>
         <nav class='nav nav-masthead justify-content-center'>
           <button class='menubtn nav-link1 fw-normal bt' onClick={set1}>
-            커피
+            coffee
           </button>
           <button class='menubtn nav-link1 fw-normal bt' onClick={set2}>
-            음료
+            beverage
           </button>
           <button class='menubtn nav-link1 fw-normal bt' onClick={set3}>
-            디저트
+            dessert
           </button>
         </nav>
       </div>

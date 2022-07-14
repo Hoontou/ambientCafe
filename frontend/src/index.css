@@ -1,38 +1,54 @@
 @font-face {
-  font-family: "MainFont";
-  src: url("./font/VarelaRound-Regular.ttf");
+  font-family: 'MainFont';
+  src: url('./font/VarelaRound-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Ambient";
-  src: url("./font/Roboto-Regular.ttf");
+  font-family: 'Ambient';
+  src: url('./font/Roboto-Regular.ttf');
 }
 @font-face {
-  font-family: "Menu-fnt";
-  src: url("./font/GowunDodum-Regular.ttf");
-}
-
-@font-face {
-  font-family: "fntB";
-  src: url("./font/GmarketSansTTFBold.ttf");
+  font-family: 'Menu-fnt';
+  src: url('./font/GowunDodum-Regular.ttf');
 }
 
 @font-face {
-  font-family: "fntL";
-  src: url("./font/GmarketSansTTFLight.ttf");
+  font-family: 'fntB';
+  src: url('./font/GmarketSansTTFBold.ttf');
 }
 
 @font-face {
-  font-family: "fntM";
-  src: url("./font/GmarketSansTTFMedium.ttf");
+  font-family: 'fntL';
+  src: url('./font/GmarketSansTTFLight.ttf');
+}
+
+@font-face {
+  font-family: 'fntM';
+  src: url('./font/GmarketSansTTFMedium.ttf');
 }
 @font-face {
-  font-family: "메뉴샘플2";
-  src: url("./font/메뉴샘플2.ttf");
+  font-family: '메뉴샘플2';
+  src: url('./font/메뉴샘플2.ttf');
 }
 @font-face {
-  font-family: "메뉴샘플1";
-  src: url("./font/메뉴샘플1.ttf");
+  font-family: '메뉴샘플1';
+  src: url('./font/메뉴샘플1.ttf');
+}
+@font-face {
+  font-family: '인덱스1';
+  src: url('./font/Genome-Thin.otf');
+}
+@font-face {
+  font-family: '인덱스2';
+  src: url('./font/Now-Medium.otf');
+}
+@font-face {
+  font-family: '인덱스3';
+  src: url('./font/Now-Regular.otf');
+}
+@font-face {
+  font-family: '인덱스4';
+  src: url('./font/Now-Thin.otf');
 }
 
 .bg {

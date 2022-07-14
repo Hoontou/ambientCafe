@@ -14,12 +14,12 @@
 
 .naver {
   margin-top: 0.295rem;
-  width: 3.7rem;
-  height: 3.7rem;
+  width: 2.7rem;
+  height: 2.7rem;
 }
 .instagram {
-  width: 4.4rem;
-  height: 4.4rem;
+  width: 3.4rem;
+  height: 3.4rem;
 }
 
 .foot {
@@ -28,4 +28,8 @@
 
 li {
   margin-top: 0.3rem;
+}
+
+.foot-email {
+  font-size: 0.7rem;
 }
